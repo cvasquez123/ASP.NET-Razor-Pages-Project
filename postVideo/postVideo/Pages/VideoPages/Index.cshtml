@@ -1,0 +1,66 @@
+﻿@page
+@model IndexModel
+@{
+}
+<h2>My Videos</h2>
+<div>
+    <a asp-page="Create">Add new Movie</a>
+    @if(Model.afterAddMessage != null)
+    {
+        <div>
+            @Model.afterAddMessage
+        </div>
+
+    }
+</div>
+
+<div>
+   @if (Model.MyVideos.Count() > 0)
+   {
+       
+     <form method="post">
+       <div>
+           <table>
+               <tr>
+                   <th>
+                       @Html.DisplayNameFor(v => v.MyVideos.FirstOrDefault().Tittle)
+                   </th>
+                   <th>
+                       @Html.DisplayNameFor(v => v.MyVideos.FirstOrDefault().Category)
+                   </th>
+                   <th>
+                       @Html.DisplayNameFor(v => v.MyVideos.FirstOrDefault().VideoDescription)
+                   </th>
+                   <th>
+
+                   </th>
+               </tr>
+               @foreach(var item in Model.MyVideos)
+               {
+               <tr>
+                   <td>
+                       @Html.DisplayFor(v => item.Tittle   )
+                   </td>
+                   <td>
+                       @Html.DisplayFor(v => item.Category)
+                   </td>
+                   <td>
+                       @Html.DisplayFor(v => item.VideoDescription)
+                   </td>
+                   <td>
+                       <a asp-page="Edit" asp-route-id="@item.ID">Edit</a>
+                       <button asp-page-handler="Delete" asp-route-id="@item.ID">Delete</button>
+                   </td>
+               </tr>
+
+               }
+           </table>
+       </div>
+     </form>
+   }
+   else
+   {
+       <p>No movies available</p>
+
+   }
+</div>

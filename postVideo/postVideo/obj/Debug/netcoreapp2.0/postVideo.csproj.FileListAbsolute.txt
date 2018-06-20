@@ -1,0 +1,11 @@
+c:\users\vasqu\source\repos\postVideo\postVideo\bin\Debug\netcoreapp2.0\postVideo.deps.json
+c:\users\vasqu\source\repos\postVideo\postVideo\bin\Debug\netcoreapp2.0\postVideo.runtimeconfig.json
+c:\users\vasqu\source\repos\postVideo\postVideo\bin\Debug\netcoreapp2.0\postVideo.runtimeconfig.dev.json
+c:\users\vasqu\source\repos\postVideo\postVideo\bin\Debug\netcoreapp2.0\postVideo.dll
+c:\users\vasqu\source\repos\postVideo\postVideo\bin\Debug\netcoreapp2.0\postVideo.pdb
+c:\users\vasqu\source\repos\postVideo\postVideo\obj\Debug\netcoreapp2.0\postVideo.csprojAssemblyReference.cache
+c:\users\vasqu\source\repos\postVideo\postVideo\obj\Debug\netcoreapp2.0\postVideo.csproj.CoreCompileInputs.cache
+c:\users\vasqu\source\repos\postVideo\postVideo\obj\Debug\netcoreapp2.0\postVideo.AssemblyInfoInputs.cache
+c:\users\vasqu\source\repos\postVideo\postVideo\obj\Debug\netcoreapp2.0\postVideo.AssemblyInfo.cs
+c:\users\vasqu\source\repos\postVideo\postVideo\obj\Debug\netcoreapp2.0\postVideo.dll
+c:\users\vasqu\source\repos\postVideo\postVideo\obj\Debug\netcoreapp2.0\postVideo.pdb
